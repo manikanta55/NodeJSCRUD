@@ -14,7 +14,6 @@ router.get('/', (req,res) => {
 router.get('/users', (req,res) => { res.send(userDB)})
 
 //POST Request 
-
 /*
 User sending the array of objects  [{},{}]
 */
