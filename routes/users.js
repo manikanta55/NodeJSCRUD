@@ -48,7 +48,6 @@ router.delete('/user/delete/:id', (req, res) => {
 })
 
 //Patch Operation
-
 router.patch('/user/update/:id', (req, res) => {
     const {id} = req.params
 
