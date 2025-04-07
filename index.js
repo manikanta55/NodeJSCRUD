@@ -4,8 +4,6 @@ import userRoutes from './routes/users.js'
 const app = express();
 const PORT = 6969
 
-
-
 app.use(bodyParser.json()); //JSON data will be used in this application..
 
 app.use('/', userRoutes);
